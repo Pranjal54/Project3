@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image: url(./Assets/pexels-maxyne-barcel-10402282\ 1.png); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    color: gold;
+    background-attachment: fixed;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./Assets/pexels-maxyne-barcel-10402282\ 1.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button:hover{
+    background-color: white;
+    color: red;
+    border: 2px solid white;
+}
+
+nav{
+    padding: 20px 10%;
+    height: 15vh;
+   
+}
+
+nav ul{
+    display: flex;
+ 
+    list-style: none;
+    
+
+}
+
+nav ul li{
+    margin-right: 150px;
+    font-weight: 600;
+    font-size: 15px;
+    gap: 0;
+    align-items: center;
+    
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: red;
+}
+
+nav ul li img{
+   
+    width: 100px;
+    
+    align-items: start;
+    align-self: start;
+}
+
+nav ul button{
+    display: flex;
+    margin-right: 3000px;
+    /* margin-left: 100px; */
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    height: 35px;
+    width: 150px;
+    font-size: 20px;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;
+    justify-items: right;
+    line-height: 35px;
+    float: right;
+}
+
+main{
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    margin: 80px;
+    
+}
+
+main div p{
+    font-size: 85px;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    /* width: 90%; */
+    margin: 0;
+    padding-top: 0;
+    line-height: 93px;
+    margin-bottom: 20px;
+}
+
+
+main button{
+    
+    /* margin-left: 100px; */
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
+footer{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -60px;
+    padding-right: 20px;
+}
+
